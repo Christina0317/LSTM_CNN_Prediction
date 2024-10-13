@@ -3,6 +3,10 @@
 
 This repository implements a combined Attention-based CNN and LSTM model for time series prediction tasks, including data generation, phase reconstructure and model training processes.
 
+> The idea is from models when analysing chaos time series in physics.
+
+---
+
 ## Project Structure
 
 - `configs/`: Contains parameter designs for both the model and datasets. These configuration files allow users to adjust hyperparameters and other settings used in the model.
@@ -32,8 +36,7 @@ Use the stock market data in China. Daily frequency and minute frequency are use
 ---
 
 ## Model Implementation
-> The idea is from models when analysing chaos time series in physics.
-> 
+
 ![img.png](img.png)
 
 ### Phase Space Reconstruction: 
