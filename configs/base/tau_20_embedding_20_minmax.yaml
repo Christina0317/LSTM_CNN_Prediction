@@ -1,0 +1,28 @@
+base_params:
+  start_train: '20220110'
+  end_train: '20221031'
+  start_pred: '20221220'
+  end_pred: '20221229'
+  start_test: '20240507'
+  end_test: '20240828'
+  seed: 42
+  output_path: '/Users/hjx/Documents/projects/Att_CNN_LSTM/Res'
+
+dataset_params:
+  train_original_data_path: '/Users/hjx/Documents/projects/Att_CNN_LSTM/data/original_data'
+  train_phase_data_path:
+  pred_data_path: '/Users/hjx/Documents/projects/Att_CNN_LSTM/data/original_data'
+  test_data_path: '/home/hjx/workspace/END_TO_END/Data/barfac_1s/data_for_test/data_cross'
+  num_train_need_dates: 5
+  tau: 20
+  embedding_dim: 20
+  batch_size: 512
+  ts_norm: True
+  winsorization_threshold: 5
+  norm_method: Min_max_scaling
+  x_clip_value:
+  y_clip_value: 100
+  pred_sample_freq: 8
+  data_freq: 1  # 输入数据的频率
+  data_sample_freq: 6  # 模型输入的数据采样频率
+  sig_sample_freq: 1  # 希望输出的信号的采样频率

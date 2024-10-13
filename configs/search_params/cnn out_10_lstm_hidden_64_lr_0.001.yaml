@@ -1,0 +1,17 @@
+model_params:
+  dropout: 0.2
+  hidden_size: 256
+  input_dim:   # 与embedding_dim一样
+  cnn_steps:   # 由embedding_dim和tau计算出来
+  cnn_out_dim: 10
+  num_steps:
+  kernel_size: 2
+  lstm_hidden_dim: 64
+  lstm_num_layers: 1
+  output_dim: 1
+  is_schedule: false
+  l1_norm: 0
+  loss: mse
+  lr: 0.001
+  lr_decay: 0.001
+  model: CNNLSTMWithAttention
