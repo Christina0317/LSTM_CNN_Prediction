@@ -55,7 +55,6 @@ The attention mechanism is incorporated to focus on the most relevant parts of t
 ---
 
 ## Result
-It can be saved in 
+It can be saved in `Res/`. Here is one of the example of training and predicting result.
 
-Here is one of the example of training and predicting result.
 ![img_1.png](img_1.png)
