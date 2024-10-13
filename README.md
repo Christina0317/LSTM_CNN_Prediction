@@ -52,3 +52,10 @@ After obtaining the spatial features from the CNN, the LSTM network is used to m
 ### Attention Mechanism: 
 The attention mechanism is incorporated to focus on the most relevant parts of the sequence, both in terms of time and space. This helps the model assign higher weights to important features while down-weighting less relevant ones, thus improving the accuracy of the final prediction.
 
+---
+
+## Result
+It can be saved in 
+
+Here is one of the example of training and predicting result.
+![img_1.png](img_1.png)
